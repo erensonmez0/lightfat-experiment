@@ -6,7 +6,7 @@ This script handles the case where you have two CPU cores (cpu_atom and cpu_core
 reporting metrics for the same timestamp. It averages values with the same timestamp.
 
 Usage:
-    python3 merge_with_averaging.py results/x
+    python3 merge_with_averaging.py results/x/
     
 Output:
     results/x/merged_data_averaged.csv
@@ -17,9 +17,9 @@ import os
 import csv
 from collections import defaultdict
 
-def parse_perf_line(line):
+def parse_cache_line(line):
     """
-    Parse a line from cache.out or ipc.out
+    Parse a line from cache.out
     Example: "     0.001057790          3.009.454      cpu_atom/L1-dcache-loads/"
     Returns: (timestamp, value)
     """
@@ -35,6 +35,32 @@ def parse_perf_line(line):
         return timestamp, value
     except (ValueError, IndexError):
         return None, None
+
+
+def parse_ipc_line(line):
+    """
+    Parse a line from ipc.out
+    Example: "     0.009737695            299.118      instructions                     #    1,42  insn per cycle"
+    The IPC value is after the # symbol (5th position after split)
+    Returns: (timestamp, ipc_value)
+    """
+    parts = line.strip().split()
+    if len(parts) < 5 or '#' not in line:
+        return None, None
+    
+    try:
+        timestamp = float(parts[0])
+        # Find the # symbol and get the next value
+        hash_index = parts.index('#')
+        if hash_index + 1 < len(parts):
+            # Handle German decimal format (1,42 -> 1.42)
+            ipc_str = parts[hash_index + 1].replace(',', '.')
+            ipc_value = float(ipc_str)
+            return timestamp, ipc_value
+    except (ValueError, IndexError):
+        pass
+    
+    return None, None
 
 
 def merge_logs_to_csv_with_averaging(result_folder):
@@ -60,7 +86,7 @@ def merge_logs_to_csv_with_averaging(result_folder):
     cache_by_timestamp = defaultdict(list)
     with open(cache_file, 'r') as f:
         for line in f:
-            timestamp, value = parse_perf_line(line)
+            timestamp, value = parse_cache_line(line)
             if timestamp is not None:
                 cache_by_timestamp[timestamp].append(value)
     
@@ -68,7 +94,7 @@ def merge_logs_to_csv_with_averaging(result_folder):
     ipc_by_timestamp = defaultdict(list)
     with open(ipc_file, 'r') as f:
         for line in f:
-            timestamp, value = parse_perf_line(line)
+            timestamp, value = parse_ipc_line(line)
             if timestamp is not None:
                 ipc_by_timestamp[timestamp].append(value)
     
