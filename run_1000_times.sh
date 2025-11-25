@@ -52,11 +52,11 @@ do
     # 5. Merge cache.out and ipc.out with averaging
     python3 $MERGE_SCRIPT $LATEST_RESULT
     
-    # 6. Calculate averages from merged_data.csv
-    MERGED_CSV="$LATEST_RESULT/merged_data.csv"
+    # 6. Calculate averages from merged_data_averaged.csv
+    MERGED_CSV="$LATEST_RESULT/merged_data_averaged.csv"
     
     if [ ! -f "$MERGED_CSV" ]; then
-        echo "ERROR: merged_data.csv not found"
+        echo "ERROR: merged_data_averaged.csv not found"
         continue
     fi
     

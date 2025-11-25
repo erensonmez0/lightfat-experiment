@@ -9,7 +9,7 @@ Usage:
     python3 merge_with_averaging.py results/x
     
 Output:
-    results/x/merged_data.csv
+    results/x/merged_data_averaged.csv
 """
 
 import sys
@@ -46,7 +46,7 @@ def merge_logs_to_csv_with_averaging(result_folder):
     """
     cache_file = os.path.join(result_folder, 'cache.out')
     ipc_file = os.path.join(result_folder, 'ipc.out')
-    output_file = os.path.join(result_folder, 'merged_data.csv')
+    output_file = os.path.join(result_folder, 'merged_data_averaged.csv')
     
     # Check if files exist
     if not os.path.exists(cache_file):
