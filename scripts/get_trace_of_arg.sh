@@ -20,8 +20,8 @@ perf stat -B -I $sampling_period -e cycles,instructions,L1-dcache-loads  -o resu
 #create sub-files
 cat results/tmp.log | grep "cache" > results/cache_raw.log; cat results/cache_raw.log | grep -v not > results/$prefix/cache.out
 cat results/tmp.log | grep "ins" > results/ipc_raw.log; cat results/ipc_raw.log | grep -v not > results/$prefix/ipc.out
-rm -rf results/*.log
+# rm -rf results/*.log
 
 python3 scripts/prep_file.py  results/$prefix/cache.out
 python3 scripts/prep_file.py  results/$prefix/ipc.out
-rm -rf results/$prefix/*.out
+# rm -rf results/$prefix/*.out
