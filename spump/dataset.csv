@@ -1,0 +1,400 @@
+Attack,1
+Execution time: 46.16 ms
+Attack,2
+Execution time: 44.35 ms
+Attack,3
+Execution time: 2.90 ms
+Attack,4
+Execution time: 12.50 ms
+Attack,5
+Execution time: 13.59 ms
+Attack,6
+Execution time: 2.06 ms
+Attack,7
+Execution time: 44.87 ms
+Attack,8
+Execution time: 38.46 ms
+Attack,9
+Execution time: 16.21 ms
+Attack,10
+Execution time: 13.09 ms
+Attack,11
+Execution time: 38.02 ms
+Attack,12
+Execution time: 14.06 ms
+Attack,13
+Execution time: 46.04 ms
+Attack,14
+Execution time: 10.63 ms
+Attack,15
+Execution time: 22.24 ms
+Attack,16
+Execution time: 12.91 ms
+Attack,17
+Execution time: 2.72 ms
+Attack,18
+Execution time: 13.35 ms
+Attack,19
+Execution time: 16.88 ms
+Attack,20
+Execution time: 15.53 ms
+Attack,21
+Execution time: 42.95 ms
+Attack,22
+Execution time: 11.04 ms
+Attack,23
+Execution time: 24.34 ms
+Attack,24
+Execution time: 13.02 ms
+Attack,25
+Execution time: 9.39 ms
+Attack,26
+Execution time: 52.10 ms
+Attack,27
+Execution time: 4.14 ms
+Attack,28
+Execution time: 59.74 ms
+Attack,29
+Execution time: 27.79 ms
+Attack,30
+Execution time: 3.07 ms
+Attack,31
+Execution time: 24.24 ms
+Attack,32
+Execution time: 16.50 ms
+Attack,33
+Execution time: 16.33 ms
+Attack,34
+Execution time: 20.15 ms
+Attack,35
+Execution time: 24.07 ms
+Attack,36
+Execution time: 61.20 ms
+Attack,37
+Execution time: 19.17 ms
+Attack,38
+Execution time: 24.62 ms
+Attack,39
+Execution time: 32.81 ms
+Attack,40
+Execution time: 2.78 ms
+Attack,41
+Execution time: 23.85 ms
+Attack,42
+Execution time: 72.23 ms
+Attack,43
+Execution time: 35.00 ms
+Attack,44
+Execution time: 17.41 ms
+Attack,45
+Execution time: 8.09 ms
+Attack,46
+Execution time: 53.02 ms
+Attack,47
+Execution time: 4.68 ms
+Attack,48
+Execution time: 15.59 ms
+Attack,49
+Execution time: 13.51 ms
+Attack,50
+Execution time: 47.89 ms
+Attack,51
+Execution time: 3.83 ms
+Attack,52
+Execution time: 13.41 ms
+Attack,53
+Execution time: 40.70 ms
+Attack,54
+Execution time: 15.30 ms
+Attack,55
+Execution time: 13.74 ms
+Attack,56
+Execution time: 51.14 ms
+Attack,57
+Execution time: 9.25 ms
+Attack,58
+Execution time: 37.51 ms
+Attack,59
+Execution time: 12.73 ms
+Attack,60
+Execution time: 51.73 ms
+Attack,61
+Execution time: 40.37 ms
+Attack,62
+Execution time: 21.57 ms
+Attack,63
+Execution time: 11.83 ms
+Attack,64
+Execution time: 26.82 ms
+Attack,65
+Execution time: 58.71 ms
+Attack,66
+Execution time: 14.83 ms
+Attack,67
+Execution time: 12.72 ms
+Attack,68
+Execution time: 43.38 ms
+Attack,69
+Execution time: 14.97 ms
+Attack,70
+Execution time: 13.59 ms
+Attack,71
+Execution time: 11.64 ms
+Attack,72
+Execution time: 10.78 ms
+Attack,73
+Execution time: 14.80 ms
+Attack,74
+Execution time: 39.89 ms
+Attack,75
+Execution time: 2.99 ms
+Attack,76
+Execution time: 41.21 ms
+Attack,77
+Execution time: 2.66 ms
+Attack,78
+Execution time: 37.80 ms
+Attack,79
+Execution time: 4.24 ms
+Attack,80
+Execution time: 36.09 ms
+Attack,81
+Execution time: 11.45 ms
+Attack,82
+Execution time: 4.77 ms
+Attack,83
+Execution time: 17.84 ms
+Attack,84
+Execution time: 9.38 ms
+Attack,85
+Execution time: 2.21 ms
+Attack,86
+Execution time: 9.80 ms
+Attack,87
+Execution time: 9.77 ms
+Attack,88
+Execution time: 8.51 ms
+Attack,89
+Execution time: 10.52 ms
+Attack,90
+Execution time: 2.66 ms
+Attack,91
+Execution time: 5.05 ms
+Attack,92
+Execution time: 9.03 ms
+Attack,93
+Execution time: 2.62 ms
+Attack,94
+Execution time: 14.06 ms
+Attack,95
+Execution time: 7.52 ms
+Attack,96
+Execution time: 8.57 ms
+Attack,97
+Execution time: 8.87 ms
+Attack,98
+Execution time: 13.85 ms
+Attack,99
+Execution time: 9.71 ms
+Attack,100
+Execution time: 8.93 ms
+Normal,1
+Execution time: 88.38 ms
+Normal,2
+Execution time: 88.05 ms
+Normal,3
+Execution time: 97.83 ms
+Normal,4
+Execution time: 102.08 ms
+Normal,5
+Execution time: 104.09 ms
+Normal,6
+Execution time: 104.76 ms
+Normal,7
+Execution time: 90.28 ms
+Normal,8
+Execution time: 92.48 ms
+Normal,9
+Execution time: 87.58 ms
+Normal,10
+Execution time: 52.89 ms
+Normal,11
+Execution time: 43.75 ms
+Normal,12
+Execution time: 44.80 ms
+Normal,13
+Execution time: 42.99 ms
+Normal,14
+Execution time: 43.88 ms
+Normal,15
+Execution time: 41.06 ms
+Normal,16
+Execution time: 39.24 ms
+Normal,17
+Execution time: 43.51 ms
+Normal,18
+Execution time: 43.88 ms
+Normal,19
+Execution time: 40.80 ms
+Normal,20
+Execution time: 44.88 ms
+Normal,21
+Execution time: 42.98 ms
+Normal,22
+Execution time: 43.33 ms
+Normal,23
+Execution time: 44.08 ms
+Normal,24
+Execution time: 49.63 ms
+Normal,25
+Execution time: 53.87 ms
+Normal,26
+Execution time: 54.38 ms
+Normal,27
+Execution time: 46.93 ms
+Normal,28
+Execution time: 44.39 ms
+Normal,29
+Execution time: 133.04 ms
+Normal,30
+Execution time: 128.23 ms
+Normal,31
+Execution time: 137.80 ms
+Normal,32
+Execution time: 125.73 ms
+Normal,33
+Execution time: 121.78 ms
+Normal,34
+Execution time: 126.52 ms
+Normal,35
+Execution time: 128.78 ms
+Normal,36
+Execution time: 141.38 ms
+Normal,37
+Execution time: 138.98 ms
+Normal,38
+Execution time: 146.71 ms
+Normal,39
+Execution time: 144.76 ms
+Normal,40
+Execution time: 155.12 ms
+Normal,41
+Execution time: 157.18 ms
+Normal,42
+Execution time: 141.91 ms
+Normal,43
+Execution time: 89.51 ms
+Normal,44
+Execution time: 89.87 ms
+Normal,45
+Execution time: 101.88 ms
+Normal,46
+Execution time: 96.74 ms
+Normal,47
+Execution time: 93.78 ms
+Normal,48
+Execution time: 89.90 ms
+Normal,49
+Execution time: 96.02 ms
+Normal,50
+Execution time: 98.98 ms
+Normal,51
+Execution time: 96.90 ms
+Normal,52
+Execution time: 94.07 ms
+Normal,53
+Execution time: 138.31 ms
+Normal,54
+Execution time: 136.31 ms
+Normal,55
+Execution time: 131.93 ms
+Normal,56
+Execution time: 135.00 ms
+Normal,57
+Execution time: 139.56 ms
+Normal,58
+Execution time: 130.29 ms
+Normal,59
+Execution time: 127.77 ms
+Normal,60
+Execution time: 82.11 ms
+Normal,61
+Execution time: 83.22 ms
+Normal,62
+Execution time: 89.07 ms
+Normal,63
+Execution time: 101.06 ms
+Normal,64
+Execution time: 145.44 ms
+Normal,65
+Execution time: 131.34 ms
+Normal,66
+Execution time: 149.96 ms
+Normal,67
+Execution time: 143.72 ms
+Normal,68
+Execution time: 145.43 ms
+Normal,69
+Execution time: 88.03 ms
+Normal,70
+Execution time: 86.68 ms
+Normal,71
+Execution time: 81.99 ms
+Normal,72
+Execution time: 81.82 ms
+Normal,73
+Execution time: 84.94 ms
+Normal,74
+Execution time: 85.38 ms
+Normal,75
+Execution time: 86.01 ms
+Normal,76
+Execution time: 84.60 ms
+Normal,77
+Execution time: 98.21 ms
+Normal,78
+Execution time: 100.00 ms
+Normal,79
+Execution time: 135.05 ms
+Normal,80
+Execution time: 130.33 ms
+Normal,81
+Execution time: 132.98 ms
+Normal,82
+Execution time: 127.92 ms
+Normal,83
+Execution time: 131.13 ms
+Normal,84
+Execution time: 130.14 ms
+Normal,85
+Execution time: 122.14 ms
+Normal,86
+Execution time: 133.06 ms
+Normal,87
+Execution time: 140.74 ms
+Normal,88
+Execution time: 143.91 ms
+Normal,89
+Execution time: 130.95 ms
+Normal,90
+Execution time: 138.78 ms
+Normal,91
+Execution time: 145.03 ms
+Normal,92
+Execution time: 139.55 ms
+Normal,93
+Execution time: 95.98 ms
+Normal,94
+Execution time: 93.07 ms
+Normal,95
+Execution time: 96.32 ms
+Normal,96
+Execution time: 95.21 ms
+Normal,97
+Execution time: 91.79 ms
+Normal,98
+Execution time: 85.40 ms
+Normal,99
+Execution time: 88.33 ms
+Normal,100
+Execution time: 91.34 ms
